@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Full-Stack Developer Job Registration</title>
+</head>
+<body>
+
+    <h2>Python Full-Stack Developer Application Form</h2>
+
+    <form action="./response.html" autocomplete="off" method="POST">
+        
+        <!-- Full Name -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-- User Name -->
+        <label for="user">User Name:</label>
+        <input type="text" id="user" name="username" placeholder="Enter your user name" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        <br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Experience Level -->
+        <label for="experience">Experience Level:</label>
+        <select id="experience" name="experience" required>
+            <option value="">-- Select Experience --</option>
+            <option value="fresher">Fresher</option>
+            <option value="1-2_years">1 - 2 Years</option>
+            <option value="3-5_years">3 - 5 Years</option>
+            <option value="5+_years">5+ Years</option>
+        </select>
+        <br><br>
+
+        <!-- Python & Full-Stack Tech Stack / Tools -->
+        <label>Python & Full-Stack Tools Known:</label><br>
+        <input type="checkbox" id="django" name="tools" value="Django">
+        <label for="django">Django</label><br>
+        <input type="checkbox" id="flask" name="tools" value="Flask">
+        <label for="flask">Flask / FastAPI</label><br>
+        <input type="checkbox" id="react" name="tools" value="React">
+        <label for="react">React.js</label><br>
+        <input type="checkbox" id="sql" name="tools" value="PostgreSQL/MySQL">
+        <label for="sql">PostgreSQL / MySQL</label><br>
+        <input type="checkbox" id="git" name="tools" value="Git/GitHub">
+        <label for="git">Git / GitHub</label><br>
+        <input type="checkbox" id="docker" name="tools" value="Docker">
+        <label for="docker">Docker / Cloud</label>
+        <br><br>
+
+        <!-- Resume Upload -->
+        <label for="resume">Upload Resume (PDF/Doc):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+
+        <!-- Portfolio / GitHub Link -->
+        <label for="github">GitHub / Portfolio URL:</label>
+        <input type="url" id="github" name="github" placeholder="https://github.com/yourusername">
+        <br><br>
+
+        <!-- Form Buttons -->
+        <input type="submit" value="Submit Application">
+        <button type="reset">Reset Form</button>
+
+    </form>
+
+</body>
+</html>
