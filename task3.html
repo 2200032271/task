@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<body>
+    <form action=""> 
+       <center>
+            <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+            <h1>GENERAL BUS PASS APPLICATION</h1>
+        </center>
+    
+        <fieldset>
+    
+        <legend>Applicant Details</legend>
+
+        <table  cellpadding="5" width="100">
+
+        <tr>
+            <td>
+                <label>Name:</label>
+            </td>
+
+            <td>
+                <input type="text" maxlength="20" placeholder="Maximum Characters 20">
+            </td>
+
+            <td>
+                <label>Father's / Guardian's Name:</label>
+            </td>
+
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Date of Birth:</label>
+            </td>
+
+            <td>
+                <input type="date">
+            </td>
+
+            <td>
+                <label>Gender:</label>
+            </td>
+
+            <td>
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Male
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>Aadhaar Number:</label>
+            </td>
+
+            <td>
+                <input type="text" maxlength="12">
+            </td>
+
+            <td>
+                <label>WhatsApp Number:</label>
+            </td>
+
+            <td>
+                <input type="tel">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>E-Mail ID:</label>
+            </td>
+
+            <td>
+                <input type="email">
+            </td>
+
+            <td>
+                <label>Photo:</label>
+            </td>
+
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+
+    </table>
+
+</fieldset>
+<fieldset>
+    <legend>Residential Address</legend>
+    <table cellpadding="5" width="100">
+        <tr>
+            <td>
+                <label for="address">Applicant's Address:</label>
+                <textarea  id="address" placeholder="Max characters 20 only" maxlength="20"></textarea >
+            </td>
+
+             <td>
+                <label for="dis">District:</label>
+                <select name="" id="dis">
+                    <option value="" >-- Select a District --</option>
+                    <option value="">Hyderbad</option>
+                    <option value="">Nandyal</option>
+                    <option value="">Kurnool</option>
+                    <option value=""></option>
+                    <option value="bapatla">Bapatla</option>
+                    <option value="konaseema">Dr. B.R. Ambedkar Konaseema</option>
+                    <option value="east-godavari">East Godavari</option>
+                    <option value="eluru">Eluru</option>
+                    <option value="guntur">Guntur</option>
+                    <option value="kakinada">Kakinada</option>
+                    <option value="krishna">Krishna</option>
+                    <option value="ntr">NTR (Vijayawada)</option>
+                    <option value="palnadu">Palnadu</option>
+                    <option value="prakasam">Prakasam</option>
+                    <option value="nellore">Sri Potti Sriramulu Nellore</option>
+                    <option value="west-godavari">West Godavari</option>
+                </select>
+
+            </td>
+
+         </tr>
+        
+        <tr>
+            <td>
+                <label for="">Mandal:</label>
+                <input type="text">
+            </td>
+            <td>
+                <label for="">Village:</label>
+                <select name="" id="">
+                    <option value="">Select Village Name</option>
+                    <option value="">Banagana Palli</option>
+                    <option value="">Owk</option>
+                    <option value="">Chagalamari</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Malampet</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="">Pincode:</label>
+                <input type="number">
+            </td>
+        </tr>
+    </table>
+</fieldset>
+        
+    <fieldset>
+        <legend>
+            Pass Type Details
+        </legend>
+        <table cellpadding="5" width="100">
+            <tr>
+                <td>
+                    <label for="">City:</label>
+                    <input type="text" placeholder="City Name Like Hyderabad">
+                </td>
+            <tr>
+                <td>
+                    <label for="">Pass Type:</label>
+                    <select name="" id="">
+                        <option value="">....Select Pass Type....</option>
+                        <option value="">Greater Pass</option>
+                        <option value="">Student Bus Passes</option>
+                        <option value="">General Commuter Passes (City Travel)</option>
+                        <option value="">Ordinary Pass</option>
+                        <option value="">Metro Express Pass</option>
+                    </select>
+                </td>
+            </tr>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Mode of Payment & Pass Collections</legend>
+        <table cellpadding="5" width="100">
+            <tr>
+                <td>
+                    <label for="">Payment Method:</label>
+                    <select name="" id="">
+                        <option value="">__Select Paymethod__</option>
+                        <option value="">Online Payment</option>
+                        <option value="">Payment At Counter</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Pass Delivery Mode:</label>
+                    <select name="" id="">
+                        <option value="">__ Select Pass Delivey Mode</option>
+                    </select>
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Center at Which you want to collect Pass: </label>
+                    <select name="" id="">
+                        <option value="">__Select__</option>
+                        <option value="">RTC CBS -- HYD</option>
+                        <option value="">RTC JBD -- HYD</option>
+                        <option value="">RTC KOTI -- HYD</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br><br>
+    <center>
+        <input type="submit" name="" id="">
+    </center>
+ 
+
+
+
+    </form>
+</body>
+</html>
